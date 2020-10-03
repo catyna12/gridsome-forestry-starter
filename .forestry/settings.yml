@@ -18,10 +18,12 @@ sections:
   create: documents
   match: "**/*.md"
   templates:
+  - author
   - journal
 - type: document
   path: data/theme.json
   label: Theme config
+  read_only: true
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
